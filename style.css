@@ -20,7 +20,7 @@ p {
 
 .card{
     text-align: center;
-    width: 350px;
+    width: 600px;
     margin: auto;
     background-color: rgb(26, 26, 26);
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
@@ -67,7 +67,7 @@ p {
 
 @media (max-width: 600px) {
     .card {
-    width: 90%;
+    width: 70%;
     }
 }
 
