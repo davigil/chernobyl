@@ -65,9 +65,9 @@ p {
     transition: 0.3s ease;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 350px) {
     .card {
-    width: 70%;
+    width: 90%;
     }
 }
 
