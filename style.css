@@ -9,11 +9,11 @@ body{
     justify-content: center;
     min-height: 100vh;
     font-family: 'Rubik', sans-serif;
+    padding: 20px
 }
 
 .card{
     text-align: center;
-    padding: 20px
     width: 600px;
     margin: auto;
     background-color: rgb(26, 26, 26);
@@ -59,10 +59,20 @@ body{
     transition: 0.3s ease;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 768px) {
     .card {
-    width: 90%;
-    max-width: 350px
+        height: auto;
+        padding: 10px;
+        min-height: 150px;
+        width: 90%
+    }
+
+    .card-img {
+        height: 100px;
+    }
+    
+    .card-title {
+        font-size: 1.2rem;
     }
 }
 
