@@ -21,6 +21,7 @@ p {
 .card{
     text-align: center;
     width: 600px;
+    margin: auto;
     background-color: rgb(26, 26, 26);
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
     border-radius: 10%;
@@ -64,7 +65,11 @@ p {
     transition: 0.3s ease;
 }
 
-
+@media (max-width: 600px) {
+.card {
+width: 90%;
+}
+}
 
 @keyframes girar {
         from {
