@@ -13,6 +13,7 @@ body{
 
 .card{
     text-align: center;
+    padding: 20px
     width: 600px;
     margin: auto;
     background-color: rgb(26, 26, 26);
@@ -58,7 +59,7 @@ body{
     transition: 0.3s ease;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     .card {
     width: 90%;
     max-width: 350px
