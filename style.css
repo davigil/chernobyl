@@ -73,15 +73,6 @@ p {
         width: 90%
     }
 
-    .card-img {
-        height: 100px;
-    }
-    
-    .card-title {
-        font-size: 1.2rem;
-    }
-}
-
 @keyframes girar {
         from {
             transform: rotate(0deg);
